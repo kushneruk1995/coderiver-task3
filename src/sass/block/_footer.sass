@@ -1,0 +1,19 @@
+.footer
+	margin-top: 42px
+	margin-bottom: 170px
+	+xs
+		margin-bottom: 70px;
+
+.footer__text
+	font-size: 16px
+	font-weight: 400
+	line-height: 26px
+	color: $font-color-primary
+	a
+		color: $color-link
+		text-decoration: none
+		+tr(0.5s)
+		&:hover
+			color: $color-link - #222
+			text-decoration: underline
+			cursor: pointer

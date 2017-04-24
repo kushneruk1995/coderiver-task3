@@ -1,0 +1,29 @@
+.main
+    min-height: 100vh
+    padding-right: 415px
+    +r(1800)
+        padding-right: 0
+
+.content
+    +r(768)
+        margin-left: 0
+        box-sizing: content-box
+
+.main__wrapper
+    padding: 0 40px 100px
+    max-width: 1430px
+    margin: 0 auto
+    +r(768)
+        max-width: 520px
+
+.aside 
+    width: 415px;
+    background: #f6f6f6
+    display: flex
+    margin-left: auto
+    min-height: 100%
+    right: 0
+    top: 0
+    position: fixed
+    +r(1800)
+        display: none
